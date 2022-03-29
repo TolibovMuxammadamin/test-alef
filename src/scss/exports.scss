@@ -1,0 +1,19 @@
+$primary: #01A7FD;
+$black: #111111;
+$gray: #8D8D8D;
+$gray-l: #F1F1F1;
+$gray-m: #FAFAFA;
+
+:export {
+    primary: $primary;
+    black: $black;
+    gray: $gray;
+    grayL: $gray-l;
+    grayM: $gray-m;
+}
+
+$material-light: (
+  'text-fields': (
+    'outlined': $gray,
+  ),
+);
